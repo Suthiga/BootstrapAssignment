@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body>
+    <div class="container" id="wrapper">
+		  <div class="Navbar navbar-fixed-top">
+			  <div class="container">
+			  	<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+				  	<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				  </button>
+			    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="MATH QUIZ"/></a>
+          <div class="nav-collapse collapse navbar-responsive-collapse pop">
+				    <ul class="nav navbar-nav pull-right">
+				    	<li><a href="#">Home</a></li>
+				  	  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories<strong class="caret"></strong></a>
+						    <ul class="dropdown-menu">
+						  	  <li><a href="#">Arithmetic</a></li>
+						    	<li class="divider"></li>
+						    	<li class="dropdown-header">Geometry</li>
+							    <li><a href="#">Plane Geometry</a></li>
+							    <li><a href="#">Solid Geometry</a></li>
+							    <li class="divider"></li>
+							    <li><a href="#">Statistics</a></li>
+						  	  <li><a href="#">Probability</a></li>
+					  	  </ul>
+			  		  </li>
+						  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Log In</a>
+						  <ul class="dropdown-menu" id="signin">
+						  	<li><h4>Sign In</h4></li>
+								<form class="form-horizontal">
+									<div class="form-group">
+										 <input class="form-control" id="inputName" placeholder="Name or Email" type="text">
+									</div>
+									<div class="form-group">
+											<input class="form-control" id="inputpwd" placeholder="Password" type="text">
+									</div>
+						  	</form>
+								<div id="rem">
+									<input type="checkbox" name="vehicle" value="remember">Remember Me</div>
+								<div class="btn btn-info price">
+									<a href="#">Lets Go</a>
+								</div>
+								<li><a href="#">Forgot password?</a></li>
+					  	</ul>
+			  		</li>
+						<a href="#" class="btn btn-primary" ><span class="glyphicon glyphicon-search"></span></a>
+				  </ul>
+		  	</div><!--end nav-collapse-->
+	  	</div>
+		</div><!--end navbar-->
+		<div class="carousel slide" id="myCarousel">
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" id="s1">
+					<div class="carousel-caption">
+						<img src="images/mai.png">
+						<p>AN EFFECTIVE RESOURCE FOR LEARNERS</p>
+					</div>
+				</div>
+				<div class="item" id="s2">
+					<div class="carousel-caption">
+						<h3>Learning</h3>
+						<p>An enjoyable way to learn Mathematics </p>
+					</div>
+				</div>
+				<div class="item" id="s3">
+					<div class="carousel-caption">
+						<h3>Bootstrap</h3>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- end myCarousel -->
+		<div class="row" id="welcome">
+			<div class="container">
+				<h2>Welcome to Math Quiz</h2>
+				<p>Revise your knowledge in Maths. Test your Maths skills. Plan your Maths learning process. Succeed in Maths exam.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row" id="courses">
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Arithmetic</h3>
+					</div>
+					<img src="images/arithmetic.jpg">
+					<p>Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not available for free</p>
+					<a href="#" class="btn btn-primary btn-block">Take a test</a>
+				</div>
+			</div>
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Geometry</h3>
+					</div>
+					<img src="images/geometric.jpeg">
+					<p>Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not available for free</p>
+					<a href="#" class="btn btn-primary btn-block">Take a test</a>
+				</div>
+			</div>
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h3 class="panel-title">Statistics</h3>
+					</div>
+					<img src="images/statistics.jpg" class="img-circle">
+					<p>Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not available for free</p>
+					<a href="#" class="btn btn-primary btn-block">Take a test</a>
+				</div>
+			</div>
+		</div><!-- end row -->
+	</div><!--end wrapper-->
+
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>

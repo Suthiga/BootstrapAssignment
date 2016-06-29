@@ -1,0 +1,260 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #inputName,#inputpwd
+   {
+     width: 200px;
+     margin-left: 30px;
+   }
+   .price
+   {
+     margin-left: 130px;
+     margin-top: -20px;
+     font-size: 15px;
+     color: white;
+   }
+   #signin
+   {
+
+     width: 250px;
+
+   }
+   #rem
+   {
+     margin-left: 10px 10px 0 20px;
+     margin-right: 10px;
+   }
+   .glyphicon
+   {
+     margin-right: 5px;
+   }
+   #courses img
+   {
+     width:300px;
+     height: 200px;
+     margin-bottom: 10px;
+   }
+   #courses
+   {
+     margin-top: 20px;
+     text-align: center;
+   }
+   #welcome
+   {
+     text-align: center;
+     font-size: 18px;
+   }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body
+   {
+      -webkit-font-smoothing:antialiased;
+      text-rendering: optimizeLegibility;
+   }
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   .carousel-caption h3
+   {
+     font-size: 35px;
+     color: black;
+   }
+   .carousel-caption
+   {
+     font-size: 22px;
+   }
+   #s1 p{
+     color: black;
+   }
+   #s2 h3
+   {
+     font-size: 50px;
+     color: #fff;
+   }
+   #s2 p{
+     color:lightblue;
+     background: black;
+   }
+   #s1 img
+   {
+     margin-bottom: 70px;
+   }
+
+   #myCarousel{
+     margin-top: 70px;
+   }
+   /*#myCarousel .item
+   {
+    height: 400px;
+   }
+   #s1
+   {
+     background: url(../../images/mq-md.jpg) top center no-repeat;
+   }
+   #s2
+   {
+     background: url(../../images/geo.jpg) top center no-repeat;
+   }
+   #s3
+   {
+     background: url(../../images/carousel_medium_03.jpg) top center no-repeat;
+   }*/
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  #myCarousel .item
+  {
+   height: 225px;
+  }
+  #s1
+  {
+    background: url(../../images/mq-xs.jpg) top center no-repeat;
+  }
+  #s2
+  {
+    background: url(../../images/geo-xs.jpg) top center no-repeat;
+  }
+  #s3
+  {
+    background: url(../../images/carousel_small_03.jpg) top center no-repeat;
+  }
+  .carousel-caption h3
+  {
+    font-size: 22px;
+  }
+  .carousel-caption
+  {
+    font-size: 16px;
+  }
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item
+  {
+   height: 310px;
+  }
+  #s1
+  {
+    background: url(../../images/mq-sm.jpg) top center no-repeat;
+  }
+  #s2
+  {
+    background: url(../../images/geo-sm.jpg) top center no-repeat;
+  }
+  #s3
+  {
+    background: url(../../images/carousel_small_03.jpg) top center no-repeat;
+  }
+  .carousel-caption h3
+  {
+    font-size: 25px;
+  }
+  .carousel-caption
+  {
+    font-size: 18px;
+  }
+
+
+}
+@media (max-width: 1199px) {
+  #myCarousel .item
+  {
+   height: 400px;
+  }
+  #s1
+  {
+    background: url(../../images/mq-md.jpg) top center no-repeat;
+  }
+  #s2
+  {
+    background: url(../../images/geo-md.jpg) top center no-repeat;
+  }
+  #s3
+  {
+    background: url(../../images/carousel_small_03.jpg) top center no-repeat;
+  }
+  .carousel-caption h3
+  {
+    font-size: 30px;
+  }
+  .carousel-caption
+  {
+    font-size: 25px;
+  }
+  #courses img
+  {
+    width: 200px;
+  }
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item
+  {
+   height: 500px;
+  }
+  #s1
+  {
+    background: url(../../images/mq-lg.jpg) top center no-repeat;
+  }
+  #s2
+  {
+    background: url(../../images/geo-lg.jpg) top center no-repeat;
+  }
+  #s3
+  {
+    background: url(../../images/carousel_large_03.jpg) top center no-repeat;
+  }
+  .carousel-caption h3
+  {
+    font-size: 35px;
+  }
+  .carousel-caption
+  {
+    font-size: 29px;
+  }
+
+}
