@@ -77,6 +77,7 @@ Notes:	 Hand coded for Udemy.com
    {
       -webkit-font-smoothing:antialiased;
       text-rendering: optimizeLegibility;
+    
    }
 
 
@@ -153,6 +154,7 @@ Notes:	 Hand coded for Udemy.com
    #all
    {
      margin-top: 20px;
+     margin-bottom: 20px;
    }
    /*#myCarousel .item
    {
