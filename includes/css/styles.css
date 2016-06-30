@@ -56,8 +56,8 @@ Notes:	 Hand coded for Udemy.com
    }
    footer img
    {
-     width: 50px;
-     height: 50px;
+     width: 35px;
+     height: 35px;
    }
    footer ul
    {
@@ -116,18 +116,43 @@ Notes:	 Hand coded for Udemy.com
    #level
    {
      margin-bottom: 20px;
+     margin-top: 30px;
    }
    #level p
    {
      font-size: 18px;
    }
+   #mine
+   {
+     margin-top: 20px;
+   }
+   .list-group-item-text
+   {
+     font-size: 15px;
+   }
    #login
- {
+   {
    margin-left: 20px;
- }
-
+   }
    #myCarousel{
      margin-top: 70px;
+   }
+   #head
+   {
+     margin-left: 500px;
+     margin-top: 30px;
+   }
+   #cate
+   {
+     margin-top: 100px;
+   }
+   #diff h3
+   {
+     text-align: center;
+   }
+   #all
+   {
+     margin-top: 20px;
    }
    /*#myCarousel .item
    {
@@ -167,15 +192,15 @@ Notes:	 Hand coded for Udemy.com
   }
   #s1
   {
-    background: url(../../images/mq-xs.jpg) top center no-repeat;
+    background: url('../../images/mq-xs.jpg') top center no-repeat;
   }
   #s2
   {
-    background: url(../../images/geo-xs.jpg) top center no-repeat;
+    background: url('../../images/ggg.jpg') top center no-repeat;
   }
   #s3
   {
-    background: url(../../images/dream-xs.jpg) top center no-repeat;
+    background: url('../../images/dream-xs.jpg') top center no-repeat;
   }
   .carousel-caption h3
   {
@@ -185,10 +210,6 @@ Notes:	 Hand coded for Udemy.com
   {
     font-size: 16px;
   }
-
-
-
-
 }
 
 /* Landscape phone to portrait tablet */
@@ -218,8 +239,6 @@ Notes:	 Hand coded for Udemy.com
   {
     font-size: 18px;
   }
-
-
 }
 @media (max-width: 1199px) {
   #myCarousel .item
@@ -251,8 +270,6 @@ Notes:	 Hand coded for Udemy.com
   {
     width: 200px;
   }
-
-
 }
 
 /* Large desktop */
@@ -282,5 +299,4 @@ Notes:	 Hand coded for Udemy.com
   {
     font-size: 29px;
   }
-
 }
