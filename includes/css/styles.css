@@ -1,38 +1,11 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
    #inputName,#inputpwd
    {
      width: 200px;
      margin-left: 30px;
    }
-   .price
-   {
-     margin-left: 130px;
-     margin-top: -20px;
-     font-size: 15px;
-     color: white;
-   }
    #signin
    {
      width: 250px;
-   }
-   #rem
-   {
-     margin-left: 10px 10px 0 20px;
-     margin-right: 10px;
    }
    .glyphicon
    {
@@ -67,47 +40,32 @@ Notes:	 Hand coded for Udemy.com
    {
      background :#223;
      color: pink;
+     margin-top: 40px;
    }
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
    body
    {
       -webkit-font-smoothing:antialiased;
       text-rendering: optimizeLegibility;
-    
    }
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
    #s1 p{
      color: black;
+   }
+   #s1 img
+   {
+     margin-bottom: 50px;
    }
    #s2 h3
    {
      font-size: 50px;
      color: #fff;
    }
-   #s2 p{
+   #s2 p
+   {
      color:lightblue;
      background: black;
    }
-   #s1 img
+   #s3 p
    {
-     margin-bottom: 70px;
-   }
-   #s3 p{
      color: black;
    }
    #abc
@@ -135,13 +93,10 @@ Notes:	 Hand coded for Udemy.com
    {
    margin-left: 20px;
    }
-   #myCarousel{
-     margin-top: 70px;
-   }
-   #head
+   #myCarousel
    {
-     margin-left: 500px;
-     margin-top: 30px;
+     margin-top: 70px;
+    font-family: 'Lemonada', cursive;
    }
    #cate
    {
@@ -151,68 +106,34 @@ Notes:	 Hand coded for Udemy.com
    {
      text-align: center;
    }
-   #all
+/* Portrait & landscape phone */
+   @media (max-width: 480px) {
+   #myCarousel .item
    {
-     margin-top: 20px;
-     margin-bottom: 20px;
-   }
-   /*#myCarousel .item
-   {
-    height: 400px;
+     height: 225px;
+     background-size: cover;
    }
    #s1
    {
-     background: url(../../images/mq-md.jpg) top center no-repeat;
+     background: url('../../images/mq-xs.jpg') top center no-repeat;
    }
    #s2
    {
-     background: url(../../images/geo.jpg) top center no-repeat;
+     background: url('../../images/ggg.jpg') top center no-repeat;
    }
    #s3
    {
-     background: url(../../images/carousel_medium_03.jpg) top center no-repeat;
-   }*/
-
-
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-  #myCarousel .item
-  {
-   height: 225px;
-   background-size: cover;
-  }
-  #s1
-  {
-    background: url('../../images/mq-xs.jpg') top center no-repeat;
-  }
-  #s2
-  {
-    background: url('../../images/ggg.jpg') top center no-repeat;
-  }
-  #s3
-  {
-    background: url('../../images/dream-xs.jpg') top center no-repeat;
-  }
-  .carousel-caption h3
-  {
+     background: url('../../images/dream-xs.jpg') top center no-repeat;
+   }
+   .carousel-caption h3
+   {
     font-size: 22px;
+   }
+   .carousel-caption
+   {
+     font-size: 16px;
+   }
   }
-  .carousel-caption
-  {
-    font-size: 16px;
-  }
-}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
