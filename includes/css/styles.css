@@ -38,7 +38,7 @@
    }
    footer
    {
-     background :#223;
+     background :#123;
      color: pink;
      margin-top: 40px;
    }
@@ -61,12 +61,8 @@
    }
    #s2 p
    {
-     color:lightblue;
-     background: black;
-   }
-   #s3 p
-   {
-     color: black;
+     color:black;
+     margin-top: -300px;
    }
    #abc
    {
@@ -75,20 +71,18 @@
    #level
    {
      margin-bottom: 20px;
-     margin-top: 30px;
-   }
-   #level p
-   {
-     font-size: 18px;
+     margin-top: 20px;
    }
    #mine
    {
-     margin-top: 20px;
+     font-size: 18px;
    }
-   .list-group-item-text
+
+   .list-group-item-text p
    {
-     font-size: 15px;
+     font-size: 10px;
    }
+  
    #login
    {
    margin-left: 20px;
@@ -123,7 +117,7 @@
    }
    #s3
    {
-     background: url('../../images/dream-xs.jpg') top center no-repeat;
+     background: url('../../images/dr-xs.jpg') top center no-repeat;
    }
    .carousel-caption h3
    {
@@ -133,10 +127,10 @@
    {
      font-size: 16px;
    }
-  }
 
+  }
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
   #myCarousel .item
   {
    height: 310px;
@@ -144,15 +138,15 @@
   }
   #s1
   {
-    background: url(../../images/mq-sm.jpg) top center no-repeat;
+    background: url('../../images/mq-sm.jpg') top center no-repeat;
   }
   #s2
   {
-    background: url(../../images/geo-sm.jpg) top center no-repeat;
+    background: url('../../images/geo-sm.jpg') top center no-repeat;
   }
   #s3
   {
-    background: url(../../images/dream-sm.jpg) top center no-repeat;
+    background: url('../../images/dr-sm.jpg') top center no-repeat;
   }
   .carousel-caption h3
   {
@@ -161,6 +155,10 @@
   .carousel-caption
   {
     font-size: 18px;
+  }
+  #mine
+  {
+    font-size: 10px;
   }
 }
 @media (max-width: 1199px) {
@@ -171,15 +169,15 @@
   }
   #s1
   {
-    background: url(../../images/mq-md.jpg) top center no-repeat;
+    background: url('../../images/mq-md.jpg') top center no-repeat;
   }
   #s2
   {
-    background: url(../../images/geo-md.jpg) top center no-repeat;
+    background: url('../../images/geo-md.jpg') top center no-repeat;
   }
   #s3
   {
-    background: url(../../images/dream-md.jpg) top center no-repeat;
+    background: url('../../images/dr-md.jpg') top center no-repeat;
   }
   .carousel-caption h3
   {
@@ -193,8 +191,12 @@
   {
     width: 200px;
   }
-}
+  #level p
+  {
+    font-size: 15px;
+  }
 
+}
 /* Large desktop */
 @media (min-width: 1200px) {
   #myCarousel .item
@@ -204,15 +206,15 @@
   }
   #s1
   {
-    background: url(../../images/mq-lg.jpg) top center no-repeat;
+    background: url('../../images/mq-lg.jpg') top center no-repeat;
   }
   #s2
   {
-    background: url(../../images/geo-lg.jpg) top center no-repeat;
+    background: url('../../images/geo-lg.jpg') top center no-repeat;
   }
   #s3
   {
-    background: url(../../images/dream-lg.jpg) top center no-repeat;
+    background: url('../../images/dr-lg.jpg') top center no-repeat;
   }
   .carousel-caption h3
   {
